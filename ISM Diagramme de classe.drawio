@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36">
   <diagram name="Page-1" id="y4PMoRxXwFEbm2AwyFLD">
-    <mxGraphModel dx="2180" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2405" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -470,20 +470,23 @@
         <mxCell id="9xKFg0YnI9kNTsxAIw-Z-161" parent="9xKFg0YnI9kNTsxAIw-Z-157" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
           <mxGeometry height="18" width="168" y="142" as="geometry" />
         </mxCell>
-        <mxCell id="9xKFg0YnI9kNTsxAIw-Z-162" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55.199999999999996;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="&lt;&lt;enumeration&gt;&gt;&#xa;Role" vertex="1">
-          <mxGeometry height="184.2" width="170" x="-271" y="960.87" as="geometry" />
+        <mxCell id="9xKFg0YnI9kNTsxAIw-Z-162" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="&lt;&lt;enumeration&gt;&gt;&#xa;Role" vertex="1">
+          <mxGeometry height="178" width="170" x="-271" y="940" as="geometry" />
         </mxCell>
         <mxCell id="9xKFg0YnI9kNTsxAIw-Z-163" parent="9xKFg0YnI9kNTsxAIw-Z-162" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="ADMIN" vertex="1">
-          <mxGeometry height="37" width="170" y="55.199999999999996" as="geometry" />
+          <mxGeometry height="29" width="170" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YNDHXPK2Arl6LXGygYOU-7" parent="9xKFg0YnI9kNTsxAIw-Z-162" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="AGENCE_IMMOBILERE" vertex="1">
+          <mxGeometry height="33" width="170" y="69" as="geometry" />
         </mxCell>
         <mxCell id="9xKFg0YnI9kNTsxAIw-Z-164" parent="9xKFg0YnI9kNTsxAIw-Z-162" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="PROPRIETAIRE" vertex="1">
-          <mxGeometry height="37" width="170" y="92.19999999999999" as="geometry" />
+          <mxGeometry height="29" width="170" y="102" as="geometry" />
         </mxCell>
         <mxCell id="9xKFg0YnI9kNTsxAIw-Z-165" parent="9xKFg0YnI9kNTsxAIw-Z-162" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="CLIENT" vertex="1">
-          <mxGeometry height="37" width="170" y="129.2" as="geometry" />
+          <mxGeometry height="29" width="170" y="131" as="geometry" />
         </mxCell>
         <mxCell id="9xKFg0YnI9kNTsxAIw-Z-166" parent="9xKFg0YnI9kNTsxAIw-Z-162" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
-          <mxGeometry height="18" width="170" y="166.2" as="geometry" />
+          <mxGeometry height="18" width="170" y="160" as="geometry" />
         </mxCell>
         <mxCell id="j9hA4VRa0FKhZM_o4RtP-2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="&lt;&lt;enumeration&gt;&gt;&#xa;MoyenPaiement" vertex="1">
           <mxGeometry height="140" width="170" x="1041" y="320" as="geometry" />
